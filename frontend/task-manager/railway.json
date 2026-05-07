@@ -1,10 +1,9 @@
- 
 {
   "build": {
     "builder": "NIXPACKS",
     "buildCommand": "npm install && npm run build"
   },
   "deploy": {
-    "startCommand": "npx serve -s build -l $PORT"
+    "startCommand": "npx serve -s build -p 3000"
   }
 }
